@@ -4,30 +4,10 @@ description: >-
   Learn how to build a Telegram bot that messages you exchange rate data and
   weather forecasts for areas of your choosing.
 cover: /gitbook-assets/tutorials/telegram-bot-cover-python-v2.jpg
-coverY: 0
-coverHeight: 435
-layout:
-  width: default
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
-  tags:
-    visible: true
 ---
 
 # How to Create and Host a Python Telegram Bot on Code Capsules
+
 
 _This guide uses Python. You can find the Node.js version_ [_here_](/tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules)_, and the Go version_ [_here_](/tutorials/create-and-host-go-ai-telegram-bot)_._
 
@@ -270,7 +250,7 @@ if __name__ == '__main__':
 
 Below is a conversation with a bot created using this program. Run `bot.py` and try it out yourself.
 
-<figure><img src="/gitbook-assets/tutorials/telegram-bot-chat.png" alt="" /><figcaption><p>Telegram Bot Conversation</p></figcaption></figure>
+![Telegram Bot Conversation](/gitbook-assets/tutorials/telegram-bot-chat.png)
 
 We won't be able to send messages to our bot if this program isn't running, so hosting it on Code Capsules will allow us to interact with the bot without having to keep this code permanently running on our development PC.
 
@@ -351,7 +331,7 @@ We still need to create environment variables for our bot's authorization and AP
 2. Click the **Config** tab.
 3. Add environment variables in the same form as our `.env` file. Add three environment variables: `BOT_TOKEN`, `WEATHER_API_KEY`, and `EXCHANGE_API_KEY`.
 
-<figure><img src="/gitbook-assets/tutorials/bot-api-key-env.png" alt="" /><figcaption><p>Bot API Key Environment Variable</p></figcaption></figure>
+![Bot API Key Environment Variable](/gitbook-assets/tutorials/bot-api-key-env.png)
 
 Once this is done, the Capsule will restart and the bot is ready. Give it a try!
 

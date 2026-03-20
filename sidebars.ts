@@ -225,7 +225,7 @@ const sidebars: SidebarsConfig = {
       "type": "category",
       "label": "Backend Capsule",
       "items": [
-        "products/backend-capsule/backend-capsule",
+        "products/backend-capsule/deploy",
         "products/backend-capsule/configure",
         "products/backend-capsule/scale",
         "products/backend-capsule/monitor",
@@ -327,6 +327,7 @@ const sidebars: SidebarsConfig = {
     "tutorials/create-and-host-go-ai-telegram-bot",
     "tutorials/how-to-simply-host-a-production-wordpress-blog",
     "tutorials/build-a-personal-calendar-assistant-with-telegram-and-agent-capsules",
+    "tutorials/use-codecapsules-with-an-agent",
     "tutorials/heroku-migration-guide",
     "tutorials/create-and-host-an-api-with-flask",
     "tutorials/building-a-full-stack-application-with-flask-and-htmx",

@@ -21,7 +21,7 @@ A [Capsule](/platform/capsules/what-is-a-capsule) provides the server for hostin
 
 Navigate to the **Spaces** tab and open the Space you'll be using.
 
-Click the yellow **+** button in the bottom left of the screen, select **New Capsule**, and follow the instructions below to create a Data Capsule::
+Click the yellow **+** button in the bottom left of the screen, select **New Capsule**, and follow the instructions below to create a Data Capsule:
 
 1. Choose **Data Capsule**.
 2. Under **Data Type**, select **MongoDB Database Cluster**.
@@ -55,4 +55,4 @@ You can now view the application after the two capsules have been connected. To 
 
 ![Deployed App](/gitbook-assets/get-started/cc-django-mongodb-app.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](../../).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/database).
