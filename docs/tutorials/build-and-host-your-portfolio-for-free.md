@@ -80,7 +80,7 @@ From the cloned `demo-portfolio` directory, give Claude Code the following promp
 Deploy this as a frontend capsule on Code Capsules using the free tier.
 ```
 
-The agent does the following:
+The agent then:
 
 1. Reads your project to determine the Capsule type (frontend, since it's static HTML)
 2. Authenticates with the Code Capsules API
